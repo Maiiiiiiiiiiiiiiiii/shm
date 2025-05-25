@@ -22,6 +22,13 @@ export default function TabLayout() {
         }}
       />
       <Tabs.Screen
+        name="arduino"
+        options={{
+          title: 'Arduino',
+          tabBarIcon: ({ color }) => <FontAwesome name="microchip" size={24} color={color} />,
+        }}
+      />
+      <Tabs.Screen
         name="monitoring"
         options={{
           title: 'Monitor',
